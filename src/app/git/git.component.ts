@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 import { GitService } from '../git/git-service';
-import 'rxjs/add/operator/map';
 
 
 @Component({

@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  Git_Secret: "1c2b09cccfa9e39a7c2aed3cfbdc80e780a5af9b"
+  Git_Secret: "b2ee68f22c28c18382af1df7cf108bcfda13148f"
 
 };
 
