@@ -11,6 +11,10 @@ import 'rxjs/add/operator/map';
   styleUrls: ['./git.component.css']
 })
 export class GitComponent implements OnInit {
+  users: any = [];
+  repos: any = [];
+  username: string;
+
 
   constructor() { }
 
