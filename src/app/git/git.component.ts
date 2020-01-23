@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
-import { GitService } from '../git/git.service';
+import { GitService } from '../git/git-service';
 import 'rxjs/add/operator/map';
 
 
@@ -31,8 +31,6 @@ export class GitComponent implements OnInit {
         this.repos = data;
       })
 
-  }
-
-  
+  } 
 
 }
