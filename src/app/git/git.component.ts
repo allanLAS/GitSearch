@@ -33,4 +33,20 @@ export class GitComponent implements OnInit {
 
   } 
 
+  searchUser() {
+    this.gitService.updateUser(this.username);
+
+    this.gitService.gitProfile()
+      .subscribe(res => {
+        //console.log(res)
+        this.users = res;
+      })
+
+    this.gitService.gitRepos()
+      .subscribe(data => {
+        //console.log(data)
+        this.repos = data;
+      })
+  }
+
 }
